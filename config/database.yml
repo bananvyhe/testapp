@@ -80,6 +80,6 @@ test:
 #
 production:
   <<: *default
-  database: testapp_production
-  username: testapp
+  database: impulsvue
+  username: deploy
   password: <%= ENV['TESTAPP_DATABASE_PASSWORD'] %>
