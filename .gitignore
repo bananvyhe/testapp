@@ -22,3 +22,11 @@
 /node_modules
 yarn-debug.log*
 .yarn-integrity
+config/database.yml
+
+config/database.yml.example
+config/deploy/staging.rb
+config/deploy/production.rb
+config/deploy.rb
+Capfile
+Capfile
