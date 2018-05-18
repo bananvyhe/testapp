@@ -56,6 +56,7 @@ config.webpacker.check_yarn_integrity = false
   # config.active_job.queue_adapter     = :resque
   # config.active_job.queue_name_prefix = "testapp_#{Rails.env}"
   config.action_mailer.perform_caching = false
+config.secret_key_base = ENV["SECRET_KEY_BASE"]
 
   # Ignore bad email addresses and do not raise email delivery errors.
   # Set this to true and configure the email server for immediate delivery to raise delivery errors.
