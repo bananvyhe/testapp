@@ -17,8 +17,7 @@ require "capistrano/deploy"
 require 'capistrano/rails'
 require 'capistrano/bundler'
 require 'capistrano/rvm'
-require 'capistrano/puma'
-install_plugin Capistrano::Puma
+require "capistrano/passenger" 
 # Include tasks from other gems included in your Gemfile
 #
 # For documentation on these, see for example:
