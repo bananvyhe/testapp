@@ -25,8 +25,4 @@ yarn-debug.log*
 config/database.yml
 
 config/database.yml.example
-config/deploy/staging.rb
-config/deploy/production.rb
-config/deploy.rb
-Capfile
-Capfile
+ 
